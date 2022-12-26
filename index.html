@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="fa-IR">
+    <head>
+        <meta charset="UTF-8" >
+        <meta name="description" content="to-do-list">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>to-do-list</title>
+        <link rel="stylesheet" href="./style.css"/>
+        <script type="text/javascript" src="./script.js" defer></script>
+    </head>
+    <body>
+        <div id="app">
+            <header>
+                <h1>لیست کارها </h1>
+                <button id="add" >+</button>
+                <input type="text" name="text" placeholder="می خوای چه کاری انجام بدی؟" id="text"/>
+            </header>
+
+            <div id="lists">
+
+                <ul id="todo">
+                    <li>خرید کاهو
+                        <div class="buttons">
+                            <button class="delete"></button>
+                            <button class="finish"></button>
+                        </div>
+                    </li>
+
+                    <li>انجام تکلیف کوئرا
+                        <div class="buttons">
+                            <button class="delete"></button>
+                            <button class="finish"></button>
+                        </div>
+                    </li>
+                </ul>
+
+                <ul id="completed">
+                    <li>پرداخت قبوض
+                        <div class="buttons">
+                            <button class="delete"></button>
+                            <button class="finish"></button>
+                        </div>
+                    </li>
+
+                    <li>بنزین زدن
+                        <div class="buttons">
+                            <button class="delete"></button>
+                            <button class="finish"></button>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <footer id="end"></footer>
+
+        </div>
+    </body>
+
+</html>
